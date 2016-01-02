@@ -7,7 +7,7 @@ var Q = require('q');
 
 module.exports = {
   getRecipes: function (req, res, next) {
-    // insert api id and api password for api call
+    // insert api id and api password
     var YUMMLY_API_ID = 'aca21f0d';
     var YUMMLY_API_KEY = '54f02d95d4b66adc893bb036c3165e3f';
     var params = url.parse(req.url).query;
